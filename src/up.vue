@@ -295,7 +295,6 @@ async function getVideoData(bvid: string) {
 
 <template>
   <div class="flex flex-col gap-5 p-10">
-    <h1>eno-bili-downloader</h1>
     <div class="flex gap-5 items-center">
         b站cookie
       <InputText class="w-[300px]" v-model="cookie" />
